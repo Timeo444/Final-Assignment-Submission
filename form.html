@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Application Form</title>
+  </head>
+  <body id="const">
+    <!-- Global Navigation -->
+
+    <!-- Application Form -->
+    <header id="header">
+      <div>
+        <img
+          src="http://seeklogo.com/images/A/altschool-africa-logo-4365C6B160-seeklogo.com.png"
+          alt="AltSchool logo"
+          width="85"
+          height="50"
+        />
+      </div>
+
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="table.html">Courses</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="heading">
+      <h2>Learn highly sought after skills without hassle.</h2>
+      <p>
+        Already an Altschooler?
+        <a href="https://portal.altschoolafrica.com/auth/login" target="_blank"
+          >sighn In!</a
+        >
+      </p>
+    </div>
+
+    <main>
+      <div id="main-content">
+        <h2>Signup</h2>
+        <p>Take the next step to apply at AltSchool Africa</p>
+        <h3>Personal Information</h3>
+        <section id="container">
+          <div class="identical">
+            <form name="Signup-form" method="post">
+              <label for="first-name"><b>First Name:</b></label
+              ><br />
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter first name"
+                required
+              /><br /><br />
+
+              <label for="gender"><b>Gender:</b></label>
+              <br />
+              <select name="" id="gender">
+                <option value=""></option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+              </select>
+              <br /><br />
+
+              <label for="email"><b>Email Address:</b></label
+              ><br />
+              <input
+                placeholder="Enter your email"
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+
+              <label for="country"><b>Country:</b></label>
+              <br />
+              <select name="" id="country" placeholder="select Country">
+                <option value=""></option>
+                <option value="">Algeria</option>
+                <option value="">Congo</option>
+                <option value="">Mali</option>
+                <option value="">Niger</option>
+                <option value="">Nigeria</option>
+              </select>
+              <br /><br />
+            </form>
+          </div>
+
+          <div class="identical">
+            <form action="">
+              <label for="last-name"><b>Last Name:</b></label
+              ><br />
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Enter last name"
+                required
+              /><br /><br />
+
+              <label for="DOB"><b>Date of Birth:</b></label>
+              <br />
+              <input
+                type="date"
+                id="DOB"
+                placeholder="input your date of Birth"
+              />
+              <br /><br />
+
+              <label for="phone"><b>Phone Number:</b></label
+              ><br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+              /><br /><br />
+
+              <label for="city"><b>City of Residence:</b></label>
+              <br />
+              <input
+                type="text"
+                id="city"
+                placeholder="Enter your state of Residence"
+                required
+              />
+            </form>
+          </div>
+        </section>
+
+        <section id="lone">
+          <form action="">
+            <label for="F-knowledge"><b>How did you hear about us?</b></label>
+            <br />
+            <input type="text" id="F-knowledge" required />
+          </form>
+        </section>
+
+        <section>
+          <form action="" id="lower-input">
+            <div class="identical">
+              <label for="secret"><b>Password:</b></label>
+              <br />
+              <input
+                type="password"
+                id="secret"
+                placeholder="Enter Password"
+                required
+              />
+            </div>
+            <div class="identical">
+              <label for="confirm-secret"><b>Confirm Password:</b></label>
+              <br />
+              <input
+                type="password"
+                id="confirm-secret"
+                placeholder="Enter password again"
+                required
+              />
+              <br />
+            </div>
+          </form>
+        </section>
+
+        <section>
+          <p>
+            By clicking continue, I agree to <a href="https://www.altschoolafrica.com/terms-and-conditions">Term of Use</a>and
+            acknowledge that I have read the <a href="https://www.altschoolafrica.com/privacy-policy">Privacy Policy</a>.
+          </p>
+          <br />
+          <button type="submit">Submit</button>
+        </section>
+      </div>
+    </main>
+    <br />
+    <footer>
+      <p>
+        Do you also want to join AltSchool Africa, Signup
+        <a href="form.html">here</a>
+      </p>
+    </footer>
+  </body>
+</html>

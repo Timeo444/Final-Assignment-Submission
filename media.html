@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media.css" />
+    <title>About Me - Media</title>
+  </head>
+  <body>
+    <header id="header">
+      <div>
+        <img
+          src="http://seeklogo.com/images/A/altschool-africa-logo-4365C6B160-seeklogo.com.png"
+          alt="AltSchool logo"
+          width="85"
+          height="50"
+        />
+      </div>
+
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Media</a></li>
+            <li><a href="table.html">Courses</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <h1>About Me - Media</h1>
+      <h2>My Picture</h2>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="/images/My-Picture.jpg" />
+        <source media="(min-width: 768px)" srcset="/images/My-Picture.jpg" />
+        <source media="(max-width: 767px)" srcset="/images/My-Picture.jpg" />
+        <img src="/images/My-Picture.jpg" width="300px" alt="My Picture" />
+      </picture>
+
+      <h2 class="media">Video Format- A Strong Message About Myself</h2>
+      <video controls width="600">
+        <source src="/video/This Is Our Time.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <h2 class="media">Audio Format- A Strong Message About Myself</h2>
+      <audio controls>
+        <source src="/audio/Chains of Choice.mp4" type="audio/mp4" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+    <footer>
+        <p>Do you also want to join AltSchool Africa, Signup <a href="form.html">here</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+/* Reset some basic elements for better styling */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* General body styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+#const {
+  background-color: rgba(232, 236, 240, 0.945);
+  padding: 10px;
+}
+
+/* Navigation bar styles */
+nav {
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #2e2c2c;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  background-color: rgba(232, 236, 240, 0.945);
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+section h1 {
+    
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    color: c;
+  }
+
+section h2 {
+  color: rgb(38, 60, 68);
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+/* Image styles */
+picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid rgb(38, 60, 68);
+  display: block;
+  margin: 0 auto;
+}
+
+.media {
+  margin: 80px 0 20px 0;
+}
+
+/* Video styles */
+video,
+iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border: 2px solid rgb(38, 60, 68);
+  border-radius: 8px;
+}
+
+/* audio styles */
+audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border: 2px solid rgb(38, 60, 68);
+  border-radius: 28px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 767px) {
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+}
+
+footer {
+    background-color: rgb(148, 157, 172);
+    color: #f8f9fc;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+    width: inherit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
